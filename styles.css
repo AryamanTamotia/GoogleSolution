@@ -1,0 +1,142 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("page.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*make the background width 100% of the page*/
+  background-size: 100% 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+
+header {
+  background-color: rgba(57, 88, 244, 0.01);
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #aaa;
+}
+
+/* Hero Styles */
+
+.hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.hero button {
+  background-color: #fff;
+  border: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+
+/* Features Styles */
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.features div {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  text-align: center;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.features p {
+  font-size: 1.2rem;
+}
+
+.features a {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.features a:hover {
+  background-color: #aaa;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
